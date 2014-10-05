@@ -1,13 +1,8 @@
 #include "SPI.h"
 #include <WiFly.h>
 
-#define HTTP_UNKNOWN 0
-#define HTTP_GET     1
-#define HTTP_POST    2
-#define HTTP_PUT     3
-#define HTTP_DELETE  4
 
-/****************************************************************/
+/*============================================================================*/
 
 char ssid[] = "XVAdHoc";
 WiFlyServer server(80);
